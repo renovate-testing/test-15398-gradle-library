@@ -1,0 +1,10 @@
+rootProject.name = 'RennovateVersionCatalog'
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            version("spring.boot", "2.5.11")
+            library("spring.boot.configuration.processor", "org.springframework.boot", "spring-boot-configuration-processor").versionRef("spring.boot")
+        }
+    }
+}
